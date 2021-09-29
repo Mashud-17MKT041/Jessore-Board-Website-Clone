@@ -1,0 +1,325 @@
+
+
+@media all and (max-width: 1150px) {
+    .container {
+        max-width: 1030px;
+    }
+
+    .swiper {
+        width: 480px;
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 1030px) {
+
+    .menu-bar {
+        display: flex;
+    }
+
+    nav > ul {
+        flex-direction: column;
+        height: 0;
+        visibility: hidden;
+        transform-origin: top;
+        transform:scaleY(0) !important;
+        
+        opacity: 0;
+    }
+
+    .nav-ul-main.active {
+        height: auto;
+        visibility: visible;
+        transform:scaleY(1) !important;
+        transition: .5s;
+        opacity: 1;
+        width: 185px;
+    }
+
+    nav > ul > li {
+        border-right: none;
+    }
+
+    ul.result-ul {
+        left: 85px;
+    }
+
+    ul.history-ul {
+        left: 130px;
+        width: 145px;
+    }
+
+    .container {
+        max-width: 888px;
+    }
+    .body-content-wrap {
+        flex-basis: 98%;
+        margin: 0 1%;
+    }
+
+    .body-content-right {
+        flex-basis: 98%;
+        margin: 0 1%;
+    }
+
+    .nav-wrap {
+        border-bottom: none;
+    }
+
+    .box-person-wrap {
+        margin-top: 40px;
+    }
+
+    nav > ul > li:hover ul.result-ul {
+        top: 14px;
+    }
+
+    nav > ul > li:hover ul.history-ul {
+        top: 14px;
+    }
+
+    a.home-nav:hover {
+        background: none;
+        color: inherit;
+    }
+
+    .about-li:hover {
+        background: none;
+        color: inherit;
+    }
+
+    .about-li:hover a {
+        color: #c40a2a;
+    }
+
+    a.comittee-nav:hover {
+        background: none;
+        color: inherit;
+    }
+
+    a.departments-nav:hover {
+        background: none;
+        color: inherit;
+    }
+
+    a.academic-nav:hover {
+        background: none;
+        color: inherit;
+    }
+
+    a.fees-nav:hover {
+        background: none;
+        color: inherit;
+    }
+
+    .result-li:hover {
+        background: none ;
+        color: inherit;
+    }
+
+    .result-li:hover a {
+        color: #ff6600;
+    }
+
+    a.gallary-nav:hover {
+        background: none;
+        color: inherit;
+    }
+
+    li.gallary-widthless {
+        width: 86px;
+    }
+
+    li.comittee-widthless {
+        width: 118px;
+    }
+
+    li.department-widthless {
+        width: 118px;
+    }
+
+    a.contact-nav:hover {
+        background: none;
+        color: inherit;
+    }
+
+    nav > ul > li > ul > li a{
+        padding: 4px 0;
+        font-size: 14px;
+        padding-left: 10px;
+        display: block;
+    }
+    
+}
+
+@media all and (max-width: 915px) {
+    .container {
+        max-width: 790px;
+    }
+}
+
+@media all and (max-width: 818px) {
+    .board-logo {
+        flex-basis: 100%;
+        justify-content: center;
+        margin-bottom: 12px;
+        padding-left: 0;
+    }
+
+    .board-logo-side-text {
+        
+        
+        padding-left: 0;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    .board-logo-side-text h2 {
+        text-align: center;
+        
+    }
+
+    .board-logo-side-text h3 {
+        text-align: center;
+        
+    }
+
+    .body-content-left {
+        flex-basis: 98%;
+        margin: 0 1%;
+    }
+
+    .body-content-middle {
+        flex-basis: 98%;
+        margin: 0 1%;
+    }
+
+    .container {
+        max-width: 650px;
+    }
+
+    .whole-body-content-wrap {
+        display: inherit;
+        flex-wrap: wrap;
+    }
+
+    .our-service-left ul li {
+        padding-left: 70px;
+    }
+
+    .important-link-left ul li {
+        padding-left: 70px;
+    }
+
+    .mujib100-wrap {
+        display: flex;
+    }
+}
+
+@media all and (max-width: 655px) {
+    .header-wrap {
+        background: #609513;
+    }
+
+    .board-logo-side-text h2 {
+       
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .board-logo-side-text h3 {
+       
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 615px) {
+    .mujib100-img {
+        flex-basis: 65%;
+        margin: auto;
+    }
+
+    .mujib100-count-down {
+        flex-basis: 65%;
+        margin: auto;
+    }
+
+    .notice-board-part ul {
+        padding: 0 0 0 0px;
+    }
+}
+
+
+
+@media all and (max-width: 570px) {
+    .swiper {
+        width: 380px;
+        
+    }
+
+    .our-service-left ul li {
+        padding-left: 55px;
+    }
+
+    .important-link-left ul li {
+        padding-left: 55px;
+    }
+
+    .board-logo-side-text h3 {
+        display: none;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .swiper {
+        width: 350px;
+        
+    }
+
+    .our-service-left ul li {
+        padding-left: 40px;
+    }
+
+    .important-link-left ul li {
+        padding-left: 40px;
+    }
+
+    .mujib100-count-down {
+        flex-basis: 50%;
+        margin: auto;
+    }
+
+    .count-number strong {
+        font-size: 30px;
+    }
+
+    .single-count-mujib100 span {
+        font-size: 14px;
+    }
+
+    .board-logo-side-text h2 {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .swiper {
+        width: 300px;
+        
+    }
+}
+
+@media all and (max-width: 390px) {
+    .board-logo-side-text h2 {
+        font-size: 14px;
+    }
+
+    .count-number strong {
+        font-size: 24px;
+    }
+
+    .swiper {
+        width: 285px;
+    }
+}
