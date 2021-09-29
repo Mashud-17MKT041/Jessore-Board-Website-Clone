@@ -160,6 +160,10 @@
         cursor: default;
     }
     
+    li.academic-width-increase {
+        width: 220px;
+    }
+    
 }
 
 @media all and (max-width: 915px) {
@@ -177,8 +181,6 @@
     }
 
     .board-logo-side-text {
-        
-        
         padding-left: 0;
         flex-basis: 100%;
         justify-content: center;
@@ -241,6 +243,11 @@
        
         color: #fff;
         font-size: 20px;
+    }
+    
+    .footer-wrap a p {
+        padding: 6px 0;
+        font-size: 15px;
     }
 }
 
