@@ -150,6 +150,15 @@
         display: block;
     }
     
+    a.about-nav {
+        pointer-events: none;
+    }
+    
+    a.result-nav {
+        pointer-events: none;
+    /* cursor: default; */
+    }
+    
 }
 
 @media all and (max-width: 915px) {
