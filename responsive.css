@@ -152,11 +152,12 @@
     
     a.about-nav {
         pointer-events: none;
+         cursor: default;
     }
     
     a.result-nav {
         pointer-events: none;
-    /* cursor: default; */
+        cursor: default;
     }
     
 }
